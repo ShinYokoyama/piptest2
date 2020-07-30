@@ -1,1 +1,1 @@
-web: python piptest2.py
+web: gunicorn piptest2.wsgi --log-file -
